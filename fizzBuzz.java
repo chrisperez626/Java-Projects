@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class fizzBuzz {
 
   static void fizzBuzz(int input){
-    for(int i = 1; i < input; i++){
+    for(int i = 1; i <= input; i++){
       if(i % 3 == 0){
         System.out.println("Fizz");
       }
