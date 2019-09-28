@@ -14,7 +14,7 @@ public class threeSum {
                         System.out.print("Triplet is " + A[i] + ", " + A[j] + ", " + A[k]);
                         return true;
                     }
-                }x
+                }
             }
         }
 
@@ -27,7 +27,7 @@ public class threeSum {
     public static void main(String[] args){
 
         threeSum triplet = new threeSum();
-        int A[] = { 1, 4, 45, 6, 10, 8 };
+        Integer[] A = { 1, 4, 45, 6, 10, 8 };
 
 
         triplet.threeSum(A);
