@@ -4,7 +4,7 @@ import java.io.*;
 
 public class binarySearch {
 
-    static int binarySearch(int arr[], int x){
+    static int binarysearch(int arr[], int x){
 
         int l = 0, r = arr.length - 1;
         while(l <= r) {
@@ -27,7 +27,7 @@ public class binarySearch {
     public static void main(String args[]){
         int[] arr = { 2, 5, 13, 17, 24, 28, 35, 40, 46, 50, 57};
 
-        System.out.println(binarySearch(arr, 5));
+        System.out.println(binarysearch(arr, 5));
 
     }
 
